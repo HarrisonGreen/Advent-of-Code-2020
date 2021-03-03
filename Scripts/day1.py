@@ -1,5 +1,3 @@
-import time
-
 def read_input(file_path):
     numbers = []
     with open(file_path, "r") as data_file:
