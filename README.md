@@ -1,5 +1,13 @@
 # Advent of Code 2020
 
+## Some thoughts about the problems
+
+*	[Day 7](https://adventofcode.com/2020/day/7) (the one with all the bags) was the first one which I found challenging. I counted the shiny gold bag as being inside itself for a while, which didn't help :man_facepalming:. But a really fun problem.
+*	[Day 8](https://adventofcode.com/2020/day/8) (the console boot code one) had a really interesting part 2, where we had to flip one of the instructions to fix the code. I'm a little ashamed to admit I just brute forced this one, instead of using a more clever Ariadne's string type approach. That would certainly have been faster, but the input was small enough that I could get away with it.
+*	[Day_11](https://adventofcode.com/2020/day/11) (the one with the ferry terminal seats) was the first of a few "Game of Life" style problems this year. Very enjoyable and produces some cool animations (see below).
+*	[Day 14](https://adventofcode.com/2020/day/14) (the bitmask one). I found this one particularly fiddly, especially part 2, and I'm not really pleased with the highly suspect way I loop through the memory addresses.
+*	[Day 15](https://adventofcode.com/2020/day/15) (the memory recital game one). I wrote my code for part 1, tried it on the much larger input in part 2, and after waiting for a while with no result, decided it needed some optimising. 
+
 ## Animations
 
 There were a couple of days in this year's Advent of Code which I thought gave particularly nice animations. The first of them was [day 11](https://adventofcode.com/2020/day/11), where ferry passengers were getting in and out of seats based on the number of people around them. This is my animation of part 1, where a person will leave a seat if they are surrounded by 4 or more people:
