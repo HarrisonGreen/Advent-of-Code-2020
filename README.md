@@ -10,4 +10,17 @@ But why does it have to be 4? What happens if we choose a higher or lower number
 
 ![day11_adjacent_8_animation](https://user-images.githubusercontent.com/76997643/110488680-970d5980-80e6-11eb-9710-5a6995379bd2.gif)
 
-But whichever number we choose, the behaviour is qualitatively similar, since the passengers can only "see" people sat directly next to them. This means that the events in one area are independent from what is happening elsewhere, and so we do not see any global patterns emerging.
+But whichever number we choose, the behaviour is qualitatively similar, since the passengers can only "see" people sat directly next to them. This means that the events in any given area are independent from what is happening elsewhere, and so we do not see any global patterns emerging.
+
+Then we come to part 2, where our passengers can now see an unlimited distance in any direction. However they are more tolerant now, and will only leave their seat if they can see 5 or more people. Again there is a good reason for this - if you're wondering why then try it with 4 and see what happens! And when we look we see that a pattern appears -  a square tilted on its side:
+
+![day11_direction_5_animation](https://user-images.githubusercontent.com/76997643/110519759-9932e080-8105-11eb-9f26-9de31ec43d0c.gif)
+
+It would be reasonable to think that changing the limit from 5 to 6 wouldn't change things that much - maybe it will just converge a bit quicker like last time, right? Wrong. If you predicted that this would happen, then very well done!
+
+![day11_direction_6_animation](https://user-images.githubusercontent.com/76997643/110521195-583bcb80-8107-11eb-8e5b-b5cb2286838d.gif)
+
+Our square has managed to rotate itself and is now the right way up. The case with 7 is very similar to 6 - we get a regular square getting progressively smaller. But when we increase one more to 8, it just tips it over the edge and our square is no longer stable. So while it starts out as a square, it quickly turns into something resembling a map from one of the old Pokémon games. Or a butterfly. Or something else? I'll let you decide...
+
+![day11_direction_8_animation](https://user-images.githubusercontent.com/76997643/110521773-14959180-8108-11eb-8e89-0c92668426f7.gif)
+
