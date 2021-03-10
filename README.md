@@ -1,5 +1,7 @@
 # Advent of Code 2020
 
+Welcome to my solutions for Advent of Code 2020! Below are some of my thoughts about any days which I found particularly interesting or challenging, and also some nice animations as a reward if you make it that far. Enjoy!
+
 ## Some thoughts about the problems
 
 *	[Day 7](https://adventofcode.com/2020/day/7) (the one with all the bags) was the first one which I found challenging. I counted the shiny gold bag as being inside itself for a while, which didn't help :man_facepalming:. But a really fun problem.
